@@ -2,4 +2,4 @@
 title: "Post"
 ---
 
-# posts
+Contenu de la page "Post" suivie de la liste des articles

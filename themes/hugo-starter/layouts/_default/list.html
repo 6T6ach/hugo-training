@@ -1,12 +1,22 @@
 {{ define "main" }}
 
-{{ .Title }}
+<div class="row m-4 text-center">
+    {{ .Title }}
+    {{ .Content }}
+</div>
 
-{{ .Content }}
 
-{{ range .Pages }}
-{{ .Title }}
-{{ .Content }}
-{{ end }}
+<hr>
 
+<div class="row mb-5">
+    {{ range .Pages }}
+    <div class="col-md-4 p-4">
+        <div class="border border-secondary p-2 h-100 text-center">
+            {{ .Title }}
+            {{ .Content }}
+        </div>
+    </div>
+    {{ end }}
+
+</div>
 {{ end }}

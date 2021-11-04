@@ -1,7 +1,26 @@
-{{ partial "header.html" . }}
+<!DOCTYPE html>
+<html lang="en">
 
-{{block "main" . }}
-<p>TEST</p>
-{{end}}
+{{ partial "head.html" . }}
 
-{{ partial "footer.html" . }}
+<body>
+    {{ partial "header.html" . }}
+
+    <main class="container">
+
+        {{block "main" . }}
+        <p>TEST</p>
+        {{end}}
+
+
+
+
+    </main>
+
+    {{ partial "footer.html" . }}
+
+    {{ partial "js.html" . }}
+
+</body>
+
+</html>

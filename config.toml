@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "My New Hugo Site"
+title = "Test Hugo"
 theme = "hugo-starter"
 
 [menu]
