@@ -2,7 +2,9 @@
 title: "Home"
 ---
 
-# Hi there
+# Hugo training
+
+contenu (.content)
 
 Welcome to your new Hugo site.
 
